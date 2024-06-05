@@ -1,0 +1,55 @@
+body {
+    font-family: SansSerif;
+    width: 800px;
+    margin: auto;
+    margin-top: 48px;
+}
+.boil{
+    color: green;
+}
+
+.student-container {
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+    row-gap: 16px;
+    width: 400px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.label {
+    right: 0;
+    width: 100px;
+}
+
+.btn {
+    align-content: center;
+}
+
+.student-lst {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 400px;
+    margin: 48px auto;
+    row-gap: 1px;
+    column-gap: 1px;
+    background-color: black;
+    padding: 1px;
+}
+
+/*
+.student-lst-row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+}*/
+
+.student-lst > div {
+    background-color: azure;
+    padding: 1px;
+}
